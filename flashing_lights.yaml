@@ -6,10 +6,12 @@ blueprint:
   source_url: https://github.com/cloudishBenne/home-assistant_blueprints/blob/main/flashing_lights.yaml
   input:
     activated:
-        name: Activated
-        description: "Toggle to activate or deactivate flashing lights."
+        name: Sensorstate
+        description: "Sensorstate change to activate or deactivate flashing lights."
         selector:
             entity:
+            from:
+            to:
     target_lights:
         name: Lights
         description: "To using lights"
