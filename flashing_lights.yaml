@@ -13,7 +13,8 @@ blueprint:
     target_state:
         name: Sensorstate
         description: "Sensorstate to be used"
-        text:
+        selector:
+            text:
     target_lights:
         name: Lights
         description: "To using lights"
